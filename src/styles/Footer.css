@@ -1,0 +1,47 @@
+footer {
+  background-color: #fff;
+  padding: 2rem 9%;
+}
+
+footer .contact-about {
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: 1.5rem;
+  padding: 1rem 2rem 2rem 2rem;
+}
+
+footer .contact-about section h3 {
+  font-size: 2rem;
+  font-weight: 500;
+  padding: 1rem 0;
+}
+
+footer .contact-about section .email-hours {
+  font-size: 1.2rem;
+}
+
+footer .contact-about section .email-hours > a {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+footer .contact-about section .email-hours p {
+  line-height: 1rem;
+  padding: 1rem 0;
+}
+
+footer .contact-about section .social-media p {
+  line-height: 1.8rem;
+  font-size: 1.5rem;
+  padding: 1rem 0;
+}
+
+footer .contact-about section .social-media a {
+  width: 4rem;
+  height: 4rem;
+  line-height: 4rem;
+  border-radius: 0.5rem;
+  font-size: 2rem;
+  margin-left: 0.2rem;
+  background-color: #eee;
+  text-align: center;
+}

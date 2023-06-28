@@ -1,20 +1,30 @@
 import { Link } from "react-router-dom";
+import "../styles/NavBar.css";
 
 export const NavBar = () => {
   return (
-    <header>
-      <h1>
-        <Link to="/">Shopper's Paradise</Link>
-      </h1>
-      <nav className="flex bg-white flex-wrap">
-        <ul className="flex flex-wrap">
-          <li>Hombres</li>
-          <li>Mujeres</li>
-          <li>Calzado</li>
-          <li>Acerca de</li>
-          <li>Contacto</li>
-        </ul>
+    <header className="flex items-center justify-between">
+      <Link to="/" className="logo font">
+        Shopper's Paradise
+      </Link>
+      <nav>
+        <Link to="/" className="item-text">Polos</Link>
+        <Link to="/" className="item-text">Casacas</Link>
+        <Link to="/" className="item-text">Pantalones</Link>
+        <Link to="/" className="item-text">Calzado</Link>
+        <Link to="/" className="item-text">Contacto</Link>
       </nav>
+      <div className="icons">
+        <button type="button">
+          <i className="fas fa-user"></i>
+        </button>
+        <button type="button">
+          <i className="fas fa-shopping-cart"></i>
+        </button>
+        <button type="button">
+          <i className="fas fa-bars"></i>
+        </button>
+      </div>
     </header>
   );
 };
