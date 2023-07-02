@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
-import "../styles/NavBar.css";
+import "../styles/components/NavBar.css";
 
 export const NavBar = () => {
   return (
     <header className="flex items-center justify-between">
-      <Link to="/" className="logo font">
+      <Link to="/" className="logo font-black">
         Shopper's Paradise
       </Link>
       <nav>

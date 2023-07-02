@@ -1,4 +1,4 @@
-import "../styles/Footer.css";
+import "../styles/components/Footer.css";
 
 export const Footer = () => {
   return (
@@ -23,7 +23,7 @@ export const Footer = () => {
         <section>
           <h3>Contáctanos</h3>
           <div className="email-hours">
-            <a href="mailto:contacto@shoppersparadise.com.pe">
+            <a className="underline font-black" href="mailto:contacto@shoppersparadise.com.pe">
               contacto@shoppersparadise.com.pe
             </a>
             <p id="hours">[L-V: 9:00AM - 6:00PM]</p>
@@ -31,7 +31,7 @@ export const Footer = () => {
           <div className="social-media">
             <p>Síguenos en nuestras redes sociales</p>
             <div className="social-media-icons">
-              <a href="" className="fab fa-facebook"></a>
+              <a href="" className="fab fa-facebook text-center"></a>
               <a href="" className="fab fa-instagram"></a>
             </div>
           </div>
